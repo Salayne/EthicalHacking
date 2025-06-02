@@ -24,8 +24,8 @@ def attempt_extract(zf_handle, password):
 
 def main():
     print("[+] Beginning bruteforce ")
-    with ZipFile('enc.zip') as zf:
-        with open('rockyou.txt', 'rb') as file:
+    with ZipFile('file.zip') as zf:
+        with open('wordlist.txt', 'rb') as file:
             # Write your logic here...
             # Iterate through password entries in rockyou.txt
             # >>>>> Process each line
